@@ -1,0 +1,9 @@
+<template>
+    <lightning-card title="Weather for {cityName}" if:true={weather}>
+        <div >
+            <p>Temperature: {weather.temperature} K and {temp} C</p>
+            <p>Humidity: {weather.humidity}%</p>
+            <p>Description: {weather.description}</p>
+        </div>
+    </lightning-card>
+</template>
